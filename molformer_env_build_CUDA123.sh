@@ -6,10 +6,6 @@ conda init
 source ~/.bashrc
 conda activate MolTran_CUDA12
 
-# no need to clone if this script is added to the repo
-git clone https://github.com/IBM/molformer.git
-cd molformer
-
 # conda installations
 conda install -y pytorch=1.7.1=py3.8_cuda11.0.221_cudnn8.0.5_0 cudatoolkit=11.0 -c pytorch
 conda install -y numpy=1.22.3 pandas=1.2.4 scikit-learn=0.24.2 scipy=1.6.2
